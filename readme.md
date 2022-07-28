@@ -1,3 +1,3 @@
 - normalize css
-- npm i sass react-router-dom helmet axios
+- npm i sass react-router-dom react-helmet
 -

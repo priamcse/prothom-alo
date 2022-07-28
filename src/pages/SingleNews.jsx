@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import MetaData from "../components/layouts/MetaData";
 import { getItem } from "../helper/getData";
 
 const SingleNewsPage = () => {
@@ -8,7 +9,7 @@ const SingleNewsPage = () => {
   //   console.log(data);
   return (
     <div className="container single">
-      <h4></h4>
+      <MetaData title={data.headline} />
       <h2>{data.headline}</h2>
       <hr className="seperator-2" />
       {data.cover_photo && (
