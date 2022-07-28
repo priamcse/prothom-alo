@@ -6,7 +6,10 @@ const Header = () => {
     <header>
       <div className="logo">
         <Link to="/">
-          <img src="../../logo.svg" alt="Prothom Alo" />
+          <img
+            src="https://assets.prothomalo.com/prothomalo/assets/palo-bangla-bb996cdb70d2e0ccec8c.svg"
+            alt="Prothom Alo"
+          />
         </Link>
       </div>
     </header>
